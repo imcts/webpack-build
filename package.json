@@ -1,0 +1,30 @@
+{
+  "name": "webpack-build",
+  "version": "1.0.0",
+  "description": "Study webpack build.",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --config build/webpack.config.js --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcts/webpack-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imcts/webpack-build/issues"
+  },
+  "homepage": "https://github.com/imcts/webpack-build#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
